@@ -1,0 +1,27 @@
+/* pages/movie/movie-star/movie-star-tpl.wxss */
+.stars-container{
+   display: flex;
+   flex-direction: row;
+}
+
+.stars{
+   display: flex;
+   flex-direction: row;
+   height:30rpx;
+   margin-right:24rpx; /*margin-right*/
+   margin-top:6rpx ;
+   margin-bottom: 24rpx;
+}
+
+.stars image{
+   padding-left:3rpx;
+   height:17rpx;
+   width:17rpx;
+   margin-top:6rpx ;
+   
+}
+.star-score{
+   margin-left: 10rpx;
+   color: #4A6141;
+   vertical-align: middle;
+}

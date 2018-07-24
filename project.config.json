@@ -12,9 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.1.1",
-	"appid": "touristappid",
-	"projectname": "OrangeCan",
-	"isGameTourist": true,
+	"appid": "wxbe595ea186d6c368",
+	"projectname": "OrangeCan_final",
 	"condition": {
 		"search": {
 			"current": -1,
