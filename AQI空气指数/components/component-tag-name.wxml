@@ -1,0 +1,29 @@
+<!-- 组件模板 -->
+<view class="wrapper">
+
+  <view class="c1">
+    <button class="CityButton" catchtap="SetCityTap">
+      <text class="text">{{city}}</text>
+    </button>
+    <text class="text"></text>
+    <text class="text">颗粒物2.5</text>
+  </view>
+
+  <view class="c1">
+    <text class="text">{{quality}}</text>
+    <text class="text">1小时</text>
+    <text class="text">{{pm}}</text>
+  </view>
+
+  <view class="c1">
+    <text class="text">{{aqi}}</text>
+    <text class="text">24小时</text>
+    <text class="text">{{pmtf}}</text>
+  </view>
+
+</view>
+
+
+<view>
+  <slot></slot>
+</view>
